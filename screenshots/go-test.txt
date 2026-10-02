@@ -1,0 +1,32 @@
+	example.com/lesson04/cmd/pipeline		coverage: 0.0% of statements
+=== RUN   TestRun_DoesNotDeadlock
+--- PASS: TestRun_DoesNotDeadlock (0.00s)
+=== RUN   TestRun_MultipleCallsAreIndependent
+--- PASS: TestRun_MultipleCallsAreIndependent (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	example.com/lesson04/deadlock	(cached)	coverage: 100.0% of statements
+=== RUN   TestGenerate_CountAndRange
+--- PASS: TestGenerate_CountAndRange (0.00s)
+=== RUN   TestGenerate_ZeroCount
+--- PASS: TestGenerate_ZeroCount (0.00s)
+=== RUN   TestFilter_KeepsOnlyEven
+--- PASS: TestFilter_KeepsOnlyEven (0.00s)
+=== RUN   TestFilter_EmptyInput
+--- PASS: TestFilter_EmptyInput (0.00s)
+=== RUN   TestPipeline_EndToEnd
+--- PASS: TestPipeline_EndToEnd (0.00s)
+PASS
+coverage: 100.0% of statements
+ok  	example.com/lesson04/pipeline	(cached)	coverage: 100.0% of statements
+=== RUN   TestRunPool_TimeoutReturnsDeadline
+--- PASS: TestRunPool_TimeoutReturnsDeadline (0.08s)
+=== RUN   TestRunPool_FastJobsSucceed
+--- PASS: TestRunPool_FastJobsSucceed (0.02s)
+=== RUN   TestRunPool_TimeoutAbortsSlowJob
+--- PASS: TestRunPool_TimeoutAbortsSlowJob (0.20s)
+=== RUN   TestRunPool_RespectsWorkerCount
+--- PASS: TestRunPool_RespectsWorkerCount (0.31s)
+PASS
+coverage: 100.0% of statements
+ok  	example.com/lesson04/workerpool	(cached)	coverage: 100.0% of statements
